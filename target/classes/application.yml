@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: newsapp
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://www.db4free.net:3306/atthemoment
+    username: sql6634700
+    password: HkzUgzWT4R
+
+app:
+  cors:
+    allowed-origins: "*"
+logging:
+  level:
+    org.springframework.security: DEBUG
+    # org.hibernate.SQL: DEBUG
