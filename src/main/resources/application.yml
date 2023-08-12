@@ -5,9 +5,9 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://www.db4free.net:3306/atthemoment
-    username: sql6634700
-    password: HkzUgzWT4R
+    url: jdbc:mysql://www.db4free.net:3306/[database]
+    username: [username]
+    password: [password]
 
 app:
   cors:
